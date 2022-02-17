@@ -1,0 +1,49 @@
+/* grid index */
+.gridIndex{
+    display: grid;
+    grid-template-areas: "header header"
+                         "nav nav"
+                         "mainIndex mainIndex"
+                         "footer footer";
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+/* grid productos */
+.gridProductos{
+    display: grid;
+    grid-template-areas: "header header"
+                         "nav nav"
+                         "mainProductos mainProductos"
+                         "footer footer";
+}
+/* grid empresa */
+.gridEmpresa{
+    display: grid;
+    grid-template-areas: "header header"
+                         "nav nav"
+                         "mainEmpresa mainEmpresa"
+                         "footer footer";
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+}
+/* grid sucursales */
+.gridSucursales{
+    display: grid;
+    grid-template-areas: "header header"
+                         "nav nav"
+                         "mainSucursales mainSucursales"
+                         "mainSucursales mainSucursales"
+                         "footer footer";
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+}
+/* grid contacto */
+.gridContacto{
+    display: grid;
+    grid-template-areas: "header header"
+                         "nav nav"
+                         "mainContacto mainContacto"
+                         "footer footer";
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+}

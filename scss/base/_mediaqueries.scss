@@ -1,0 +1,279 @@
+/*            MEDIAQUERIES TABLET            */
+@media screen and (max-width: $breakpoint-large) and (min-width: $breakpoint-medium){
+    header{
+        .logo{
+            height: 130px;
+        }
+    }
+    /* Main Productos */
+
+    .mainProductos{
+        justify-content: center;
+        flex-direction: column;
+        margin: 20px 0px 20px 0px;
+        height: auto;
+    }
+      
+      #archivoProductos{
+        margin: 30px 0px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 150px;
+    
+    }
+    
+      #textoProductos{
+        margin: 50px 0px 5px 0px;
+        width: 70%;
+        align-self: center;
+    
+    }
+    
+      #imagenProductos{
+        margin: 0px 0px 0px 0px;
+        height: 150px;
+        width: 300px;
+        align-self: center;
+    
+    }
+    
+      #preciosProductos{
+        margin: 0px 0px 0px 0px;
+        height: 120px;
+    
+    }
+      
+      #marcasProductos{
+        margin: 0px 0px 0px 0px;
+        width: 60%;
+        height: 200px;
+        align-self: center;
+    }
+  
+      /* Main Empresa */
+  
+      #mainEmpresa{
+        flex-direction: column-reverse;
+    }
+  
+      #imagenEmpresa{
+        margin: 0px;
+        width: 70%;
+        align-self: center;
+        border-radius: 10px;
+    }
+  
+      .containerEmpresa{
+        margin: 30px 0px 20px 0px;
+        width: 60%;
+        align-self: center;
+        height: auto;
+        text-align: center;
+    }
+  
+      /* Main Sucursales */
+
+      #mapaDistribuidora{
+          iframe{
+              width: 100%;
+          }
+    }
+  
+      #textoDistribuidora{
+          p{
+              width: 100%;
+          }
+    }
+  
+      #mapaFerreteria{
+        iframe{
+            width: 100%;
+        }
+    }
+  
+      #textoFerreteria{
+          p{
+              width: 100%;
+          }
+    }
+  
+    /* Main Contacto */
+  
+      #mainContacto{
+        grid-area: mainContacto;
+        display: grid;
+        grid-template-areas: "infoContacto infoContacto"
+                             "formContacto formContacto";
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+
+      .containerContacto{
+          margin-right: 640px;
+          margin-top: 10px;
+          height: auto;
+    }
+
+      .containerFormulario{
+          justify-self: center;
+          margin-right: 10%;
+    }
+  
+    /* footer */
+  
+      footer div div h6{
+        font-size: 10px;
+    }
+
+    .mainContactoMobile{
+        display: none;
+    }
+}
+
+/*             MEDIAQUERIES CELULAR             */
+@media screen and (max-width: $breakpoint-small) and (min-width: $breakpoint-xs){
+
+    /* Banner */
+
+  header{
+      .logo{
+          height: 68px;
+      }
+  }
+
+  /* Main Productos */
+
+  .mainProductos{
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 0px 20px 0px;
+    height: auto;
+  }
+  
+  #archivoProductos{
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+  }
+
+  #textoProductos{
+    margin: 0px 0px 40px 0px;
+    width: 70%;
+    align-self: center;
+    margin-top: 10px;
+  }
+
+  main div h2{
+    font-size: 18px;
+  }
+
+  main div p{
+    font-size: 12px;
+  }
+
+  #imagenProductos{
+    margin: 0px 0px 0px 0px;
+    height: 150px;
+    width: 300px;
+    align-self: center;
+
+  }
+
+  #archivoImagen{
+    transform: scale(0.5);
+  }
+
+  /* Main Sucursales */
+
+    .mainSucursales{
+      grid-template-areas: "tituloSucursales tituloSucursales"
+                       "subtituloDistribuidora subtituloDistribuidora"
+                       "mapaDistribuidora mapaDistribuidora"
+                       "textoDistribuidora textoDistribuidora"
+                       "subtituloFerreteria subtituloFerreteria"
+                       "mapaFerreteria mapaFerreteria"
+                       "textoFerreteria textoFerreteria";
+      gap: 25px 0px;
+      height: auto;
+    }
+
+    #mapaDistribuidora{
+        justify-self: center;
+        width: 100%;
+        iframe{
+            width: 100%;
+        }
+  }
+
+    #textoDistribuidora{
+        justify-self: center;
+        width: 100%;
+        p{
+            width: 100%;
+        }
+  }
+
+    #mapaFerreteria{
+        justify-self: center;
+        width: 100%;
+      iframe{
+          width: 100%;
+      }
+  }
+
+    #textoFerreteria{
+        justify-self: center;
+        width: 100%;
+        p{
+            width: 100%;
+        }
+  }
+  
+  /* Main Empresa */
+
+  #mainEmpresa{
+    flex-direction: column-reverse;
+  }
+
+  #imagenEmpresa{
+    padding: 20px;
+    width: 340px;
+    margin-left: 30px;
+  }
+
+  .containerEmpresa{
+      width: 300px;
+      padding: 20px;
+}
+
+    /* Main Contacto */
+
+        #mainContacto{
+            display: none;
+          }
+
+        .mainContactoMobile{
+            grid-area: mainContacto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            margin-top: 40px;
+            padding: 10px;
+            font-family: 'Roboto', sans-serif;
+        }
+
+  /* Footer */
+  footer{
+      height: 120px;
+  }
+
+}

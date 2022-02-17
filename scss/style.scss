@@ -1,0 +1,23 @@
+
+@import "base/variables";
+@import "base/listas";
+
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: $bg;
+}
+
+@import "components/grid";
+@import "components/header";
+@import "components/nav";
+@import "components/main";
+@import "components/footer";
+@import "base/mediaqueries";
+
+
