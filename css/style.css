@@ -1,4 +1,4 @@
-.mainProductos #archivoProductos #archivoImagen, .mainEmpresa #imagenEmpresa, .mainSucursales .mapaSucursales {
+.mainProductos #archivoProductos #archivoImagen, .mainProductos #marcasProductos #imagenMarcas, .mainEmpresa #imagenEmpresa, .mainSucursales .mapaSucursales {
   border-radius: 10px;
   border: 2px solid black; }
 
