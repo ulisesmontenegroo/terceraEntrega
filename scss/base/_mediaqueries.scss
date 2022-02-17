@@ -1,5 +1,5 @@
 /*            MEDIAQUERIES TABLET            */
-@media screen and (max-width: $breakpoint-large) and (min-width: $breakpoint-medium){
+@media screen and (max-width: map-get($map: $breakpoints, $key: 'large')) and (min-width: map-get($map: $breakpoints, $key: 'medium')){
     header{
         .logo{
             height: 130px;
@@ -135,7 +135,7 @@
 }
 
 /*             MEDIAQUERIES CELULAR             */
-@media screen and (max-width: $breakpoint-small) and (min-width: $breakpoint-xs){
+@media screen and (max-width: map-get($map: $breakpoints, $key: 'small')) and (min-width: map-get($map: $breakpoints, $key: 'xs')){
 
     /* Banner */
 
