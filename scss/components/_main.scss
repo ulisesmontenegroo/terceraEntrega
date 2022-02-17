@@ -25,7 +25,7 @@
     #archivoProductos{
         #archivoImagen{
             height: 200px;
-            border-radius: 20px;
+            @extend %border-img;
         }
     }
     #textoProductos{
@@ -51,8 +51,8 @@
     margin-bottom: 50px;
     #imagenEmpresa{
         height: 300px;
-        border-radius: 10px;
         margin-right: 30px;
+        @extend %border-img;
     }
     .containerEmpresa{
         display: flex;
@@ -129,6 +129,9 @@
         padding-left: 60%;
         padding-right: 10px;
         font-family: 'Roboto', sans-serif;
+    }
+    .mapaSucursales{
+      @extend %border-img;
     }
 }
 /* main contacto */
