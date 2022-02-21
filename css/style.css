@@ -410,16 +410,16 @@ footer {
         width: 100%; } }
 
 /* MEDIAQUERIES CELULAR */
-@media screen and (min-width: 480px) and (max-width: 600px) {
+@media screen and (min-width: 320px) and (max-width: 600px) {
   /* header */
   header .logo {
-    height: 100px; }
+    height: 70px; }
   /* main empresa */
   .mainEmpresa {
     flex-direction: column;
     align-items: center; }
     .mainEmpresa #imagenEmpresa {
-      height: 220px;
+      height: 180px;
       width: 70%;
       margin-bottom: 15px; }
     .mainEmpresa .containerEmpresa {
@@ -437,7 +437,8 @@ footer {
     .mainSucursales #mapaFerreteria, .mainSucursales #mapaDistribuidora {
       width: 100%;
       display: flex;
-      justify-content: center; }
+      justify-content: center;
+      padding: 20px; }
   #mainContacto {
     width: 100%;
     height: auto;
@@ -457,4 +458,6 @@ footer {
       #mainContacto .containerFormulario #areaTelefono {
         width: 100%; }
       #mainContacto .containerFormulario #areaMensaje {
-        width: 100%; } }
+        width: 100%; }
+  footer {
+    height: 130px; } }

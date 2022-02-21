@@ -154,7 +154,7 @@ header{
   /* header */
   header{
     .logo{
-      height: 100px;
+      height: 70px;
     }
   }
   /* main empresa */
@@ -162,7 +162,7 @@ header{
     flex-direction: column;
     align-items: center;
     #imagenEmpresa{
-      height: 220px;
+      height: 180px;
       width: 70%;
       margin-bottom: 15px;
     }
@@ -191,6 +191,7 @@ header{
       width: 100%;
       display: flex;
       justify-content: center;
+      padding: 20px;
     }
    }
    #mainContacto{
@@ -220,5 +221,8 @@ header{
         width: 100%;
       }
     }
+   }
+   footer{
+     height: 130px;
    }
 }
