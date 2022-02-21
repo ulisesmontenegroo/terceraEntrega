@@ -1,4 +1,4 @@
-.mainProductos #archivoProductos #archivoImagen, .mainProductos #marcasProductos #imagenMarcas, .mainEmpresa #imagenEmpresa, .mainSucursales .mapaSucursales {
+.mainEmpresa #imagenEmpresa, .mainSucursales .mapaSucursales {
   border-radius: 10px;
   border: 2px solid black; }
 
@@ -80,22 +80,18 @@ header {
 /* main productos */
 .mainProductos {
   grid-area: mainProductos;
+  width: 100%;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  margin-left: 10%;
-  margin-right: 10%; }
-  .mainProductos #archivoProductos #archivoImagen {
-    height: 200px; }
-  .mainProductos #textoProductos {
-    width: 70%;
-    font-family: 'Roboto', sans-serif;
-    color: black; }
-  .mainProductos #marcasProductos {
-    margin-top: 130px; }
-    .mainProductos #marcasProductos #imagenMarcas {
-      width: 100%;
-      border-radius: 10px; }
+  flex-direction: column;
+  align-items: center; }
+  .mainProductos .card-productos {
+    background-color: #C2B8B7;
+    border: black 2px solid;
+    margin: 10px;
+    width: 60%; }
+  .mainProductos .tittle-productos {
+    font-size: 1.3em;
+    font-weight: bold; }
 
 /* main empresa */
 .mainEmpresa {
