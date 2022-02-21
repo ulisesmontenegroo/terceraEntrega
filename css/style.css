@@ -307,6 +307,108 @@ footer {
       color: whitesmoke;
       font-family: 'Roboto', sans-serif; }
 
+/* MEDIAQUERIES TABLET-NOTEBOOK */
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  /* header */
+  header .logo {
+    height: 150px; }
+  /* main empresa */
+  .mainEmpresa {
+    flex-direction: column;
+    align-items: center; }
+    .mainEmpresa #imagenEmpresa {
+      margin-bottom: 15px; }
+    .mainEmpresa .containerEmpresa {
+      width: 70%; }
+  /* main sucursales */
+  .mainSucursales {
+    height: auto;
+    grid-template-areas: "tituloSucursales tituloSucursales" "mapaDistribuidora mapaDistribuidora" "textoDistribuidora textoDistribuidora" "mapaFerreteria mapaFerreteria" "textoFerreteria textoFerreteria"; }
+    .mainSucursales .subtituloDistribuidora, .mainSucursales .subtituloFerreteria {
+      display: none; }
+    .mainSucursales #textoFerreteria {
+      padding-left: 0em; }
+    .mainSucursales #textoDistribuidora {
+      padding-right: 0em; }
+    .mainSucursales #mapaFerreteria, .mainSucursales #mapaDistribuidora {
+      width: 100%;
+      display: flex;
+      justify-content: center; }
+  /* main contacto */
+  #mainContacto {
+    width: 100%;
+    height: auto;
+    grid-template-areas: "tituloContacto tituloContacto" "infoContacto infoContacto" "formContacto formContacto"; }
+    #mainContacto .containerContacto {
+      margin-left: 0em;
+      width: 70%;
+      padding-left: 30px;
+      padding-right: 30px;
+      justify-self: center;
+      margin-bottom: 20px; }
+    #mainContacto .containerFormulario {
+      margin-left: 0em;
+      margin-top: 1em;
+      width: 70%;
+      justify-self: center; }
+      #mainContacto .containerFormulario #areaEmail {
+        width: 100%; }
+      #mainContacto .containerFormulario #areaTelefono {
+        width: 100%; }
+      #mainContacto .containerFormulario #areaMensaje {
+        width: 100%; } }
+
+/* MEDIAQUERIES TABLET */
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  /* header */
+  header .logo {
+    height: 100px; }
+  /* main empresa */
+  .mainEmpresa {
+    flex-direction: column;
+    align-items: center; }
+    .mainEmpresa #imagenEmpresa {
+      margin-bottom: 15px; }
+    .mainEmpresa .containerEmpresa {
+      width: 70%; }
+  /* main sucursales */
+  .mainSucursales {
+    height: auto;
+    grid-template-areas: "tituloSucursales tituloSucursales" "mapaDistribuidora mapaDistribuidora" "textoDistribuidora textoDistribuidora" "mapaFerreteria mapaFerreteria" "textoFerreteria textoFerreteria"; }
+    .mainSucursales .subtituloDistribuidora, .mainSucursales .subtituloFerreteria {
+      display: none; }
+    .mainSucursales #textoFerreteria {
+      padding-left: 0em; }
+    .mainSucursales #textoDistribuidora {
+      padding-right: 0em; }
+    .mainSucursales #mapaFerreteria, .mainSucursales #mapaDistribuidora {
+      width: 100%;
+      display: flex;
+      justify-content: center; }
+  /* main contacto */
+  #mainContacto {
+    width: 100%;
+    height: auto;
+    grid-template-areas: "tituloContacto tituloContacto" "infoContacto infoContacto" "formContacto formContacto"; }
+    #mainContacto .containerContacto {
+      margin-left: 0em;
+      width: 70%;
+      padding-left: 30px;
+      padding-right: 30px;
+      justify-self: center;
+      margin-bottom: 20px; }
+    #mainContacto .containerFormulario {
+      margin-left: 0em;
+      margin-top: 1em;
+      width: 70%;
+      justify-self: center; }
+      #mainContacto .containerFormulario #areaEmail {
+        width: 100%; }
+      #mainContacto .containerFormulario #areaTelefono {
+        width: 100%; }
+      #mainContacto .containerFormulario #areaMensaje {
+        width: 100%; } }
+
 /* MEDIAQUERIES CELULAR */
 @media screen and (min-width: 480px) and (max-width: 600px) {
   /* header */
@@ -343,8 +445,8 @@ footer {
     #mainContacto .containerContacto {
       margin-left: 0em;
       width: 100%;
-      padding-left: 20px;
-      padding-right: 20px; }
+      padding-left: 30px;
+      padding-right: 30px; }
     #mainContacto .containerFormulario {
       margin-left: 0em;
       margin-top: 1em;
